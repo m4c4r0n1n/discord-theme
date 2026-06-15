@@ -1,4 +1,5 @@
 # HyDE Vencord Theme
+<img width="1540" height="1384" alt="260615_18h35m54s_screenshot" src="https://github.com/user-attachments/assets/ac917167-f389-44af-b698-d3d5e624c79d" />
 
 Dynamically switches your Discord wallpaper to automatically match your current HyDE wallpaper.
 
