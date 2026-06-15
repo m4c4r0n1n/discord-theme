@@ -1,6 +1,9 @@
 # HyDE Vencord Theme
 <img width="1540" height="1384" alt="260615_18h35m54s_screenshot" src="https://github.com/user-attachments/assets/ac917167-f389-44af-b698-d3d5e624c79d" />
 
+<img width="1540" height="1384" alt="260615_18h42m34s_screenshot" src="https://github.com/user-attachments/assets/420f0539-b742-4500-b112-8cc0decd93cd" />
+GIFs also work
+
 Dynamically switches your Discord wallpaper to automatically match your current HyDE wallpaper.
 
 Built for Vesktop + Vencord on HyDE. Should also work on stock Discord with Vencord installed, but Vesktop is what I tested.
