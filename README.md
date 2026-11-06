@@ -29,7 +29,7 @@ chmod +x ~/.local/bin/wall-server ~/.local/bin/vesktop-home-toggle
 
 Add the entry from `templates.toml` to your Noctalia config.
 
-Run `wall-server` and `vesktop-home-toggle` at login, however your setup does that.
+Run `wall-server` and `vesktop-home-toggle` at login, however your setup does that. Run them once now too.
 
 Change your wallpaper once so the theme file exists, restart Vesktop, then go to Settings > Vencord > Themes and flip on `Discord-Wall`.
 
