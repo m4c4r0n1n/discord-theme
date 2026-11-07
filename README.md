@@ -17,23 +17,31 @@ The Discord button up top is a moon. Click it to swap between your last server a
 * Noctalia
 * Vesktop with Vencord
 * Python 3.11+
+* The Python `brotli` package (`python-brotli` on most distros, or `pip install brotli`)
 
 ## Install
 
 ```bash
-mkdir -p ~/.config/noctalia/templates ~/.local/bin
+mkdir -p ~/.config/noctalia/templates ~/.local/bin ~/.local/state/discord-classes
 cp discord-wall.css ~/.config/noctalia/templates/
-cp wall-server vesktop-home-toggle ~/.local/bin/
-chmod +x ~/.local/bin/wall-server ~/.local/bin/vesktop-home-toggle
+cp wall-server vesktop-home-toggle discord-classes ~/.local/bin/
+cp discord-classes.json ~/.local/state/discord-classes/modules.json
+chmod +x ~/.local/bin/wall-server ~/.local/bin/vesktop-home-toggle ~/.local/bin/discord-classes
 ```
 
 Add the entry from `templates.toml` to your Noctalia config.
 
-Run `wall-server` and `vesktop-home-toggle` at login, however your setup does that. Run them once now too.
+Run `wall-server`, `vesktop-home-toggle` and `discord-classes --wait` at login, however your setup does that. Run the first two once now too.
 
 Change your wallpaper once so the theme file exists, restart Vesktop, then go to Settings > Vencord > Themes and flip on `Discord-Wall`.
 
 Swap your wallpaper and Discord swaps with it. That's it.
+
+## When Discord updates
+
+Discord renames its CSS classes sometimes, and that makes the theme go plain. `discord-classes` fixes that. It reads the new names from the Vesktop cache about 2 minutes after login and updates the theme. If it changes anything you get a notification, then press `Ctrl+R` in Vesktop.
+
+To run it by hand, open Vesktop first, then run `discord-classes`.
 
 ## Tweaking
 
@@ -47,7 +55,8 @@ Everything's in `~/.config/noctalia/templates/discord-wall.css`. The ones worth 
 Take the entry out of your Noctalia config, take the scripts out of your startup, then:
 
 ```bash
-rm ~/.local/bin/wall-server ~/.local/bin/vesktop-home-toggle
+rm ~/.local/bin/wall-server ~/.local/bin/vesktop-home-toggle ~/.local/bin/discord-classes
+rm -r ~/.local/state/discord-classes
 rm ~/.config/noctalia/templates/discord-wall.css
 rm ~/.config/vesktop/themes/Discord-Wall.theme.css
 ```
