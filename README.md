@@ -2,7 +2,7 @@
 
 This changes your discord wallpaper from boring to whatever wallpaper you have selected, GIFs are supported.
 
-Built for Vesktop, Vencord, whatever cord, and Noctalia's App Theming.
+Built for Vesktop with Vencord, and Noctalia's App Theming.
 
 Toggle it on and off in Vesktop settings like any other theme.
 
