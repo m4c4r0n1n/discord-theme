@@ -1,6 +1,6 @@
 # Dynamic Discord Theme
 
-This changes your discord wallpaper from boring to whatever wallpaper you have selected, GIFs are supported.
+This changes your discord wallpaper from boring to whatever wallpaper you have selected, GIFs are supported, and so are mp4 and webm live wallpapers from Noctalia's mpvpaper plugin.
 
 Built for Vesktop with Vencord, and Noctalia's App Theming.
 
