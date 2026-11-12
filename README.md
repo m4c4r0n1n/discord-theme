@@ -8,10 +8,6 @@ Toggle it on and off in Vesktop settings like any other theme.
 
 <img width="1704" height="1386" alt="image" src="https://github.com/user-attachments/assets/4e597f7f-956c-40da-beaf-12c63c8dcb97" />
 
-## The moon
-
-The Discord button up top is a moon. Click it to swap between your last server and your last DM. It flips when you click. It keeps your place, so even after restarts it switches between whatever your last DM was and last server.
-
 ## Requirements
 
 * Noctalia
