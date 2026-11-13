@@ -6,7 +6,7 @@ Built for Vesktop with Vencord, and Noctalia's App Theming.
 
 Toggle it on and off in Vesktop settings like any other theme.
 
-<img width="1704" height="1386" alt="image" src="https://github.com/user-attachments/assets/4e597f7f-956c-40da-beaf-12c63c8dcb97" />
+<img width="1704" height="1386" alt="image" src="https://github.com/user-attachments/assets/8f974af5-7bef-45ca-b794-35e1e07dc5ec" />
 
 ## Requirements
 
