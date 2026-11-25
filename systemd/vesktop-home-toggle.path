@@ -1,0 +1,8 @@
+[Unit]
+Description=Add the Discord-Wall script back when Vesktop replaces Vencord
+
+[Path]
+PathChanged=%h/.config/vesktop/sessionData/vencordFiles/vencordDesktopRenderer.js
+
+[Install]
+WantedBy=default.target

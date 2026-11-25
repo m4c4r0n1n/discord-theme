@@ -1,0 +1,6 @@
+[Unit]
+Description=Add the Discord-Wall script to Vencord
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/vesktop-home-toggle
